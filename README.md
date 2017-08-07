@@ -8,6 +8,7 @@ pipeline for features extraction (kmer frequency count) to train a linear classi
 please modify the
 
   - DATASET = indicate here the dataset to use as input
+  - TYPE = type of input sequences (either "viral" or "bacterial") 
   - RESULT_DIR = indicates the directory for output
   - MIN_SIZE = minimum sequence size taken into account (remove short sequences from the dataset)
   - SPLIT_SIZE = Number of training examples per output files
