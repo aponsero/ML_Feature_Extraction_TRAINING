@@ -18,8 +18,8 @@ export NUM_FILES=10
 export KM_SIZE=8
 # User informations
 export QUEUE="standard"
-export GROUP="bhurwitz"
-export MAIL_USER="aponsero@email.arizona.edu"
+export GROUP="group"
+export MAIL_USER="myemail@email.arizona.edu"
 export MAIL_TYPE="bea"
 
 #
