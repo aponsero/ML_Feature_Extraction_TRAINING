@@ -2,8 +2,7 @@
 
 #PBS -l select=12:ncpus=1:mem=10gb
 #PBS -l place=free:shared
-#PBS -l walltime=24:00:00
-#PBS -l cput=24:00:00
+#PBS -l walltime=6:00:00
 
 
 HOST=`hostname`

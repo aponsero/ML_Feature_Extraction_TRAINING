@@ -1,9 +1,8 @@
 #!/bin/bash
 
 #PBS -l select=1:ncpus=1:mem=5gb
-#PBS -l pvmem=235gb
-#PBS -l walltime=2:00:00
-#PBS -l cput=2:00:00
+#PBS -l walltime=24:00:00
+#PBS -l cput=24:00:00
 
 LOG="$STDOUT_DIR/filter.log"
 ERRORLOG="$STDERR_DIR/filter.log"

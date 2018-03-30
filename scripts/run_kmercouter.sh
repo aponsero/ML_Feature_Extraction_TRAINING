@@ -24,7 +24,7 @@ if [ ! -d "$OUT_DIR" ] ; then
         mkdir "$OUT_DIR"
 fi
 
-FILE=${MYFILE:2}
+FILE=$MYFILE
 
 export DB="$RESULT_DIR/$FILE"
 export OUT="$OUT_DIR/kmer_$FILE.tab"

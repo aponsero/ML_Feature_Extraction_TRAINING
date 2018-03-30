@@ -58,11 +58,12 @@ def main():
 
   for record in SeqIO.parse(args.fasta, "fasta") :
     seq    = record.seq
+    seqUp  = seq.upper()
     nkmers = len(seq) - k + 1
     kmers  = dict()
     
     for i in list(range(0, nkmers - 1)):
-        kmer = str(seq[i:i + k])
+        kmer = str(seqUp[i:i + k])
         
         if kmer in un_kmers :
             if kmer in kmers:
