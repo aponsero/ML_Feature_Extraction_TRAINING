@@ -1,6 +1,0 @@
-Started Fri Mar 30 09:09:04 MST 2018
-Host i4n18
-/rsgrps/bhurwitz/alise/my_scripts/Machine_learning/prepa_dataset/GIT_pipeline/pipeline_prepatrainingset/scripts/workers/Filter.py -f /rsgrps/bhurwitz/alise/my_data/Riveal_exp/Datasets/Tara_broad_subsample/bact_set/cent_Map_cleaned/bact_map_cent-cleaned.fasta -o /rsgrps/bhurwitz/alise/my_data/Riveal_exp/Datasets/Tara_broad_subsample/bact_set/cent_Map_cleaned/extract_kmers -m 500
-number found in file : 2960918
-/rsgrps/bhurwitz/alise/my_scripts/Machine_learning/prepa_dataset/GIT_pipeline/pipeline_prepatrainingset/scripts/workers/randomize.py -f /rsgrps/bhurwitz/alise/my_data/Riveal_exp/Datasets/Tara_broad_subsample/bact_set/cent_Map_cleaned/extract_kmers/filtered_dataset.fasta -o /rsgrps/bhurwitz/alise/my_data/Riveal_exp/Datasets/Tara_broad_subsample/bact_set/cent_Map_cleaned/extract_kmers -s 10000 -m 2960918 -n 10
-Finished Fri Mar 30 11:12:37 MST 2018
